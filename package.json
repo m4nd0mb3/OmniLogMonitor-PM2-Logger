@@ -1,0 +1,35 @@
+{
+  "name": "OmniLogMonitor-PM2-Logger",
+  "version": "1.0.0",
+  "description": "Módulo PM2 para capturar e enviar logs para um webhook",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "pm2": "^4.5.6",
+    "pmx": "^1.6.7"
+  },
+  "config": {
+    "webhookUrl": null,
+    "log": true,
+    "error": true,
+    "kill": true,
+    "exception": true,
+    "restart": true,
+    "reload": true,
+    "delete": true,
+    "stop": true,
+    "restart overlimit": true,
+    "exit": false,
+    "start": false,
+    "online": false,
+    "phone": null,
+    "bufferMaxSecond": 5,
+    "buffer": true
+  },
+  "keywords": [],
+  "author": "Jonathan Mandombe",
+  "license": "ISC"
+}
